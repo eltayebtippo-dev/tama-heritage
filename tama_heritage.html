@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAMA Tribal Heritage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f7f3e9;
+            color: #2b2b2b;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            text-shadow: 0 3px 8px rgba(0,0,0,0.6);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-top: 10px;
+        }
+
+        /* NAVIGATION */
+        nav {
+            background: #4a3318;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: #f7f3e9;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #d9a86c;
+        }
+
+        /* CONTENT SECTIONS */
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            animation: fadeInUp 1s ease;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #4a3318;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #4a3318;
+            color: #f7f3e9;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>TAMA Tribal Heritage</h1>
+    <p>Honoring the culture, history, and identity of the TAMA people</p>
+</div>
+
+<nav>
+    <a href="#history">History</a>
+    <a href="#culture">Culture</a>
+    <a href="#language">Language</a>
+    <a href="#food">Food</a>
+    <a href="#leaders">Leaders</a>
+    <a href="#map">Map</a>
+    <a href="#story">My Story</a>
+</nav>
+
+<section id="history">
+    <div class="card">
+        <h2>📜 History of the TAMA People</h2>
+        <p>The TAMA people are a proud and resilient community with deep roots in the Darfur region. Their history is marked by strength, unity, and cultural richness.</p>
+    </div>
+</section>
+
+<section id="culture">
+    <div class="card">
+        <h2>🎶 Culture & Identity</h2>
+        <p>TAMA culture is known for music, storytelling, traditional clothing, and strong community values.</p>
+    </div>
+</section>
+
+<section id="language">
+    <div class="card">
+        <h2>🗣️ TAMA Language</h2>
+        <p>The TAMA language is part of the Nilo-Saharan family. It carries centuries of oral tradition, poetry, and cultural expression.</p>
+    </div>
+</section>
+
+<section id="food">
+    <div class="card">
+        <h2>🍲 Traditional Food</h2>
+        <p>TAMA cuisine includes millet-based dishes, dairy, and locally grown vegetables. Meals are often shared in large family gatherings.</p>
+    </div>
+</section>
+
+<section id="leaders">
+    <div class="card">
+        <h2>👑 Influential TAMA Leaders</h2>
+        <p>Throughout history, TAMA leaders have guided their people with wisdom, courage, and dedication to cultural preservation.</p>
+    </div>
+</section>
+
+<section id="map">
+    <div class="card">
+        <h2>🗺️ TAMA Regions</h2>
+        <p>The TAMA people primarily live in the Darfur region. A map can be added here later.</p>
+    </div>
+</section>
+
+<section id="story">
+    <div class="card">
+        <h2>✍️ My Personal Story</h2>
+        <p>This is where you can write about your own journey, your family, and your connection to TAMA heritage.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 TAMA Heritage Project — Built with pride
+</footer>
+
+</body>
+</html>
